@@ -1,0 +1,61 @@
+.Batch{
+    padding: 100px 0 !important;
+
+}
+.Batch h1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 220px;
+}
+.Batch p{
+    text-align: center;
+    font-size: 20px;
+    width: 740px;
+    margin: 20px auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.BatchCard{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+.BatchCard .left img{
+    width: 60px;
+    height: 60px;
+}
+.BatchCard .right{
+    padding: 20px 5px;
+}
+.BatchCard .right h4{
+    font-size: 22px;
+    color: #1453FF;
+}
+.BatchCard .right p{
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+.Batch h1{
+    padding: 10px 20px;
+}
+.Batch p{
+    width: 100%;
+    text-align: center;
+    padding: 10px 30px;
+}
+.Batch .flex{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.BatchCard .right p{
+    padding: 5px 0;
+}
+}

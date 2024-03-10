@@ -1,0 +1,101 @@
+.feedback {
+    padding: 60px 0;
+}
+
+.feedback h2 {
+    font-size: xx-large;
+}
+
+.feedback p {
+    font-size: large;
+    color: #707070;
+    padding: 5px 0;
+}
+
+.feedback .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback .top .left {
+    width: 75%;
+}
+
+.feedback .top .right {
+    color: #707070;
+    display: flex;
+    align-items: center;
+}
+
+.feedback .top .right img {
+    width: 45px;
+    height: 45px;
+}
+
+.feedback .bottom {
+    color: #EFEFFE;
+    background: #EFEFFE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    padding: 0;
+}
+
+.feedback .bottom .left img{
+    width: 300px;
+}
+
+
+.feedback .bottom .left img{
+    width: 300px;
+    object-fit: cover;
+}
+
+.feedback .bottom .right{
+    display: flex;
+    padding: 30px 180px;
+    flex-direction: column;
+}
+.feedback .bottom .right ul{
+    list-style: none;
+}
+.feedback .bottom .right ul li{
+    display: inline-block;
+}
+.feedback .bottom .right ul li img{
+    display: inline;
+    width: 30px;
+    height: 30px;
+}
+.feedback .bottom .right p{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.feedback .bottom .right h4{
+    font-size: 22px;
+    color: #000;
+}
+.feedback .bottom .right h4 + p{
+    font-size: 19px;
+    padding: 10px 0;
+    color: #000;
+}
+.feedback .bottom .right p span{
+    color: #333697;
+}
+
+
+@media screen and (max-width: 1000px) {
+.feedback .top .right{
+    display: none;
+}
+.feedback .bottom{
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.feedback .bottom .right{
+    padding: 20px 36px;
+}
+}

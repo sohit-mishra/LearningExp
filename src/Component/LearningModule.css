@@ -1,0 +1,70 @@
+.Learning{
+    padding: 100px 0 !important;
+}
+.Learning h1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 220px;
+}
+.Learning p{
+    text-align: center;
+    font-size: 20px;
+    width: 740px;
+    margin: 20px auto;
+}
+
+.Learning .flex{
+    display: flex;
+    justify-content: space-between;
+}
+.Learning .card{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 60px 20px;
+}
+.Learning .card:nth-child(2){
+    background: #dad06635;
+    
+}
+.Learning .card img{
+    width: 150px;
+    margin: 0 auto;
+    height: 150px;
+}
+.Learning .card p{
+    width: 100%;
+    font-size: 18px;
+    height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.Learning .card h4{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .Learning h1{
+        padding: 10px 20px;
+    }
+    .Learning p{
+        width: 100%;
+    }
+    .Learning .flex{
+        display: grid;
+        grid-template-columns:auto auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .Learning .flex{
+        display: grid;
+        grid-template-columns:auto;
+    }
+}

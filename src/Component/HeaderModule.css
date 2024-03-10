@@ -1,0 +1,97 @@
+header {
+    background-image: url('../assets/Header.png');
+    background-size: cover;
+    height: 800px;
+    filter: brightness(0.8) saturate(150%) contrast(120%);
+}
+
+.Header .flex {
+    display: flex;
+    margin-top: 50px;
+    padding: 80px 0;
+    align-items: center;
+}
+
+.Header .left,
+.Header .right {
+    width: 50%;
+    position: relative;
+}
+
+.Header img {
+    width: 100%;
+}
+
+.Header h1 {
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+.Header p {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.Header .btn {
+    display: flex;
+
+}
+
+.Header .btn button {
+    background: #FFEC05;
+    color: #a1a1a1;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 30px;
+    font-weight: 560;
+    margin-right: 20px;
+}
+
+.Header .btn button+button {
+    background: transparent;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.Header button img {
+    width: 30px;
+    height: 30px;
+}
+
+#oval {
+    width: 100%;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        background-image: cover;
+        width: 100%;
+    }
+
+    .Header .flex {
+        flex-direction: column;
+    }
+
+    .Header h1 {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .Header .btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Header .btn button+button {
+        display: none;
+    }
+
+    .Header .left,
+    .Header .right {
+        width: calc(100% - 20px);
+        padding: 20px ;
+    }
+}

@@ -1,0 +1,82 @@
+.Career{
+    padding: 100px 0 !important;
+}
+.Career h1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 220px;
+}
+.Career p{
+    text-align: center;
+    font-size: 20px;
+    width: 740px;
+    margin: 20px auto;
+}
+.Career .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.Career .left{
+    position: relative;
+}
+
+.Career img{
+    width: 502px;
+    height: 310px;
+}
+
+.Career .right{
+    width: 100%;
+    font-size: 26px;
+    text-align: left;
+    padding: 30px 40px;
+}
+.Career .right h3{
+    padding: 5px;
+}
+.Career .right p{
+    text-align: left;
+    font-size: 18px;
+    margin:15px 0;
+    color: #707070;
+}
+
+.Career .right button{
+    background: #FFEC05;
+    color: #333333;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.videoplay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.videoplay img{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .Career h1{
+        padding: 10px 20px;
+    }
+    .Career p{
+        width: calc(100% - 20px);
+        padding: 0 10px;
+    }
+    .Career .flex {
+        flex-direction: column;
+    }
+    .Career img{
+        width: 100%;
+        height: auto;
+    }
+}
